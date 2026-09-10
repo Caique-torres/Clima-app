@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>App de Clima</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>🌤️ App de Clima</h1>
+
+        <div class="search">
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Digite uma cidade"
+            >
+
+            <button id="searchButton">
+                🔍
+            </button>
+        </div>
+
+        <section class="weather">
+            <div class="weather-icon">
+                ☀️
+            </div>
+
+            <h2 id="temperature">24°C</h2>
+
+            <h3 id="city">São Paulo</h3>
+
+            <p id="description">
+                Ensolarado
+            </p>
+
+            <div class="details">
+
+                <div>
+                    <span>🌡️</span>
+                    <p>Sensação</p>
+                    <strong id="feelsLike">25°C</strong>
+                </div>
+
+                <div>
+                    <span>💧</span>
+                    <p>Umidade</p>
+                    <strong id="humidity">65%</strong>
+                </div>
+
+                <div>
+                    <span>💨</span>
+                    <p>Vento</p>
+                    <strong id="wind">12 km/h</strong>
+                </div>
+
+            </div>
+        </section>
+
+        <p id="error"></p>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
