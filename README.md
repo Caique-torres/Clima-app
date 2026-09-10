@@ -4,7 +4,7 @@ Uma aplicação web de previsão do tempo desenvolvida com HTML, CSS e JavaScrip
 
 ## 🚀 Demonstração
 
-👉 Clique aqui para acessar o Clima App
+👉 [Clique aqui para acessar o Clima App](https://caique-torres.github.io/Clima-app/)
 
 ## ✨ Funcionalidades
 
@@ -35,4 +35,4 @@ Este projeto foi desenvolvido para colocar em prática conhecimentos de HTML, CS
 
 Caique Torres
 
-GitHub
+[GitHub](https://github.com/Caique-torres)
